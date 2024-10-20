@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(212, 212, 212);
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 75px;
+    background-color: white;
+}
+
+.insta-post {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.post-container {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    background-color: white;
+}
+
+.post-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.post-date {
+    font-size: 10px;
+    color: grey
+}
+
+.post-footer {
+    background-color: white;
+    padding: 15px 15px;
+    font-size: 12px;
+    font-stretch: normal;
+}
+
+.post-footer-description {
+    line-break: strict;
+}
+
+.inside-span {
+    font-weight: bold;
+}
